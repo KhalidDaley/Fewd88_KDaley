@@ -1,0 +1,32 @@
+body{ width: 720px;
+	padding: 54px;
+	font-family: Lato;
+	color: #444444
+	padding: solid;
+	line-height: 1.5;
+	border: solid, left, 6px, #dddddd;
+}
+#nav{	text-align: left;
+		line-height: 1.5
+}
+#nav a{color: #dddddd;
+}
+
+#navs a{ color: #ff0000; 
+}
+
+h2{ font-family: lato;
+	color: black
+	
+}
+
+h1{ font-size: 15px
+	font-style: bold;
+	color: #ff0000;
+}
+
+span{text-align: right;
+	font-style: bold;
+	color: #aa0000
+
+}
