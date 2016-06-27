@@ -1,8 +1,11 @@
+html{ 
+  font-family: lato;
+}
 body {
   width: 720px;
   padding: 54px;
   font-family: Lato;
-  color: #444444 padding: solid;
+  color: #444444
   line-height: 1.5;
   border: solid, left, 6px, #dddddd;
 }
