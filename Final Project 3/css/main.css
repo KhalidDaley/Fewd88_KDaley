@@ -1,0 +1,149 @@
+html {
+	font-family: 'Proxima Nova', Helvetica, sans-serif;
+}
+
+body {
+	background-image: url("../images/websitebackground.jpg");
+}
+.container {
+	margin: 0 auto;
+	width: 85%;
+
+}
+
+header {
+	background-color: black;
+	overflow: hidden;
+	text-transform: uppercase;
+	padding: 10px 0;
+}
+
+header h1 {
+	float: left;
+}
+
+header nav {
+	float: right;
+	margin-top: 8px;
+}
+
+header nav a {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 50px;
+}
+
+#burger {
+	display: none;
+}
+
+#mobile-nav {
+	display: none;
+}
+
+#mobile-nav a {
+	display: block;
+	background: rgb(222, 222, 222);
+	text-align: center;
+}
+
+
+/*Slide show content*/
+.slideshow-container {
+  max-width: 900px;
+  max-height: 800px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text1 {
+   
+   position: absolute; 
+   top: 200px; 
+   left: 600px;
+   width: 100%;
+   bottom: 1px;
+	color: #000000;
+  font-size: 36px;
+  
+  text-align: center;
+  background: rgba(255,255,255,.8);
+	width: 34%;
+	margin: 0 auto;
+	/*float: right;*/
+	box-shadow: 0 0 5px rgba(0,0,0,.75);
+}
+
+.text2 {
+   
+   position: absolute; 
+   top: 200px; 
+   left: 600px;
+   width: 100%;
+   bottom: 1px;
+	color: #000000;
+  font-size: 36px;
+  
+  text-align: center;
+  background: rgba(255,255,255,.8);
+	width: 34%;
+	margin: 0 auto;
+	/*float: right;*/
+	box-shadow: 0 0 5px rgba(0,0,0,.75);
+}
+
+.text3 {
+   
+   position: absolute; 
+   top: 200px; 
+   left: 600px;
+   width: 100%;
+   bottom: 1px;
+	color: #000000;
+  font-size: 36px;
+  
+  text-align: center;
+  background: rgba(255,255,255,.8);
+	width: 34%;
+	margin: 0 auto;
+	/*float: right;*/
+	box-shadow: 0 0 5px rgba(0,0,0,.75);
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media (max-width: 875px) {
+	#large-nav {
+		display: none;
+	}
+
+	#burger {
+		float: right;
+		display: block;
+		margin-top: 6px;
+	}
+}
