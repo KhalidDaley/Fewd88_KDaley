@@ -37,3 +37,4 @@ setInterval(function() {
     .end()
     .appendTo('#adslideshow');
 },  1000);
+
