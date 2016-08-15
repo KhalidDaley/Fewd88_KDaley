@@ -213,6 +213,10 @@ li.dropdown {
     bottom: 10px; 
 }
 
+.googlemap{
+  /*float: right;*/
+}
+
 #input {
   font-size: 36px;
   padding: 50px 250px 50px 0px;
